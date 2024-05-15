@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho-Uninter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="carrossel.css">
+
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="/imagens/uninter.jpeg" alt="Logo">
+        <h1>🆃🆁🅰🅱🅰🅻🅷🅾 🆄🅽🅸🅽🆃🅴🆁</h1>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()">&#9776;</button>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li class="dropdown">
+            <a href="#">Sobre</a>
+            <div class="dropdown-content">
+              <a href="sobre_mim.html">Sobre mim</a>
+              <a href="formacao.html">Formação</a>
+              <a href="portifolio.html">Portifólio</a>
+              
+            </div>
+          </li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<hr>
+  <div class="carrossel-container">
+    <div class="carrossel-slide">
+        <p class="nome">Paulo Cesar Camargo </p>
+        <img src="/imagens/paulo.jpg" alt="Imagem 1" class="imagen_carrossel_1">
+        
+    </div>
+    <div class="carrossel-slide">
+        <img src="/imagens_carrossel/carrossel_02.jpeg" alt="Imagem 2" class="imagen_carrossel">
+        <p class="nome">Python minha Paixão</p>
+    </div>
+    <div class="carrossel-slide">
+      <p class="nome">Praticar é tudo </p>
+        <img src="/imagens_carrossel/carrossel_03.png" alt="Imagem 3" class="imagen_carrossel">
+    </div>
+    <div class="carrossel-slide">
+        <img src="/imagens_carrossel/carrossel_04.png" alt="Imagem 4" class="imagen_carrossel">
+        <p class="nome">Uninter</p>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+
+  <hr>
+  <footer>
+      <p>Contato do Programador: paulocamargo82@outlook.com</p>
+      <p>Faculdade: CENTRO UNIVERCITARIO UNINTER </p>
+      <p>Redes Sociais:</p>
+      <button><a class="linkedin" href="https://www.linkedin.com/seuperfil" target="_blank" >LinkedIn</a></button>
+      <button><a class="whatsapp" href="https://api.whatsapp.com/send?phone=SEUNUMERO" target="_blank">WhatsApp</a></button>
+      <button><a class="facebook" href="https://www.facebook.com/seufacebook" target="_blank">Facebook</a></button>
+      <button><a class="instagram" href="https://www.instagram.com/seuinstagram" target="_blank">Instagram</a></button>
+      <button><a class="github" href="https://github.com/seugithub" target="_blank">GitHub</a></button>
+      <br>
+      <p>Desenvolvedor web </p>
+      <p>Paulo Cesar Camargo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.carrossel-container {
+    background-image: url(/imagens_fundo/contatoFundo2.jpeg);
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.carrossel-slide {
+    display: none;
+    text-align: center;
+
+}
+.imagen_carrossel_1{
+    
+    border-radius: 100%;
+    width: 300px;
+}
+.imagen_carrossel{
+    border-radius: 50%;
+    width: 900px;
+}
+.carrossel-slide img {
+    max-width: 70%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.nome{
+    color: #fff;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho-Uninter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="formulario.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body class="background-contato">
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="/imagens/contatos.png" alt="Logo">
+        <h1>🅲🅾🅽🆃🅰🆃🅾</h1>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()">&#9776;</button>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li class="dropdown">
+            <a href="#">Sobre</a>
+            <div class="dropdown-content">
+              <a href="sobre_mim.html">Sobre mim</a>
+              <a href="formacao.html">Formação</a>
+              <a href="portifolio.html">Portifólio</a>
+              
+            </div>
+          </li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <hr>
+    <div class="container">
+        <h2>Ｄａｄｏｓ ｐａｒａ ｃｏｎｔａｔｏ</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+    
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome" required><br>
+    
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone"><br>
+    
+            <label for="celular">Celular:</label><br>
+            <input type="tel" id="celular" name="celular" required><br>
+    
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco" required><br>
+    
+            <label for="cep">CEP:</label><br>
+            <input type="text" id="cep" name="cep" required><br>
+    
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <hr>
+    <footer>
+        <p>Contato do Programador: paulocamargo82@outlook.com</p>
+        <p>Faculdade: CENTRO UNIVERCITARIO UNINTER </p>
+        <p>Redes Sociais:</p>
+        <button><a class="linkedin" href="https://www.linkedin.com/seuperfil" target="_blank" >LinkedIn</a></button>
+        <button><a class="whatsapp" href="https://api.whatsapp.com/send?phone=SEUNUMERO" target="_blank">WhatsApp</a></button>
+        <button><a class="facebook" href="https://www.facebook.com/seufacebook" target="_blank">Facebook</a></button>
+        <button><a class="instagram" href="https://www.instagram.com/seuinstagram" target="_blank">Instagram</a></button>
+        <button><a class="github" href="https://github.com/seugithub" target="_blank">GitHub</a></button>
+        <br>
+        <p>Desenvolvedor web </p>
+        <p>Paulo Cesar Camargo</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>

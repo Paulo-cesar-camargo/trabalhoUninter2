@@ -1,0 +1,35 @@
+footer {
+    background-image: url(/imagens_fundo/contatoFundo2.jpeg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 40vh;
+}
+footer p {
+    margin: 5px 0;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+button{
+    border-radius: 10px;
+}
+.linkedin{
+    color: blue;
+}
+.whatsapp{
+    color: #0e8f35;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: #eb1beb;
+}
+.github{
+    color: black;
+}
